@@ -40,8 +40,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
           <span>Gourab Modak</span>
           <span>
-            Competitive Programmer | React and Django Developer | Mobile development
-            through IOS only
+            Competitive Programmer | React and Django Developer |
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -54,31 +53,31 @@ const Intro = () => {
             <GrLinkedin />
           </a>
 
-          <a href="https://github.com/gauravthedeveloper" target="_blank">
+          <a href="https://github.com/spexcher" target="_blank">
             {" "}
             <FaGithub />
           </a>
           <a
-            href="https://codeforces.com/profile/sectumsempra07"
+            href="https://codeforces.com/profile/spexcher"
             target="_blank"
           >
             {" "}
             <SiCodeforces />
           </a>
           <a
-            href="https://www.codechef.com/users/sectumsempra07"
+            href="https://www.codechef.com/users/spexcher"
             target="_blank"
           >
             <SiCodechef />
           </a>
-          <a href="https://www.hackerrank.com/sectumsempra07" target="_blank">
+          <a href="https://www.hackerrank.com/spexcher" target="_blank">
             <SiHackerrank />
           </a>
-          <a href="https://www.facebook.com/gourabmodak07/" target="_blank">
+          <a href="https://www.facebook.com/spexcher/" target="_blank">
             {" "}
             <SiFacebook />
           </a>
-          <a href="https://www.instagram.com/gauravshines/" target="_blank">
+          <a href="https://www.instagram.com/spexcher/" target="_blank">
             {" "}
             <RiInstagramFill />
           </a>

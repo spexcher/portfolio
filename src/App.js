@@ -23,7 +23,7 @@ function App() {
         >
             <Navbar />
             <Intro />
-            <Services />
+            {/* <Services /> */}
             <Experience />
             {/* <Works /> */}
             <Portfolio />
