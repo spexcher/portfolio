@@ -7,11 +7,8 @@ import boy from "../../img/boy.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
+import Resume from "../../img/Resume.pdf";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
-import Github from "../../img/github.png";
-import LinkedIn from "../../img/linkedin.png";
-import Instagram from "../../img/instagram.png";
-import Codeforces from "../../img/codeforces.png";
 import { SiCodechef } from "react-icons/si";
 import { SiCodeforces } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
@@ -45,9 +42,11 @@ const Intro = () => {
                         Competitive Programmer | React and Django Developer |
                     </span>
                 </div>
-                <Link to="contact" smooth={true} spy={true}>
-                    <button className="button i-button">Hire me</button>
-                </Link>
+                {/* <Link to="contact" smooth={true} spy={true}> */}
+                <a href={Resume} download="Gourab Modak's Resume.pdf">
+                    <button className="button i-button">Download CV</button>
+                </a>
+                {/* </Link> */}
                 {/* social icons */}
                 <div className="i-icons">
                     <a
@@ -99,11 +98,6 @@ const Intro = () => {
                         {" "}
                         <BsTwitter />
                     </a>
-                    {/* <img src={Github} className="social-image" alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
-          <img src={Codeforces} alt="" />
-          <img src={Instagram} alt="" /> */}
                 </div>
             </div>
             {/* right image side */}
@@ -140,7 +134,6 @@ const Intro = () => {
                     transition={transition}
                     className="floating-div"
                 >
-                    {/* floatinDiv mein change hy dark mode ka */}
                     <FloatinDiv
                         img={thumbup}
                         text1="React and Django"
