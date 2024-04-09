@@ -40,7 +40,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
           <span>Gourab Modak</span>
           <span>
-            Competitive Programmer | MERN Stack Developer | Mobile development
+            Competitive Programmer | React and Django Developer | Mobile development
             through IOS only
           </span>
         </div>
