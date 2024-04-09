@@ -30,7 +30,7 @@ const Experience = () => {
                 </span>
                 <span>Projects</span>
             </div>
-            <div className="achievement">
+            {/* <div className="achievement">
                 <div
                     className="circle"
                     style={{ color: darkMode ? "var(--orange)" : "" }}
@@ -40,7 +40,7 @@ const Experience = () => {
                 <span style={{ color: darkMode ? "white" : "" }}>
                     companies{" "}
                 </span>
-            </div>
+            </div> */}
         </div>
     );
 };
