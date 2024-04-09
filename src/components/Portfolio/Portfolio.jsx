@@ -17,7 +17,7 @@ const Portfolio = () => {
                 Recent Projects
             </span>
             <span style={{ fontSize: 15, textAlign: "center" }}>
-                Basic Websites(find on spexcher.github.io/eng)
+                Basic Websites(find on spexcher.github.io/eng) ,More incoming !
             </span>
 
             {/* slider */}
