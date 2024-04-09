@@ -17,7 +17,7 @@ const Portfolio = () => {
                 Recent Projects
             </span>
             <span style={{ fontSize: 15, textAlign: "center" }}>
-                Basic Websites(find on spexcher.github.io/eng,meetcat)
+                Basic Websites(find on spexcher.github.io/eng)
             </span>
 
             {/* slider */}
@@ -27,18 +27,18 @@ const Portfolio = () => {
                 grabCursor={true}
                 className="portfolio-slider"
             >
-                <SwiperSlide>
+                {/* <SwiperSlide>
                     <img src={Sidebar} alt="" />
-                </SwiperSlide>
+                </SwiperSlide> */}
                 <SwiperSlide>
                     <img src={Ecommerce} alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={MusicApp} alt="" />
                 </SwiperSlide>
-                <SwiperSlide>
+                {/* <SwiperSlide>
                     <img src={HOC} alt="" />
-                </SwiperSlide>
+                </SwiperSlide> */}
             </Swiper>
         </div>
     );
