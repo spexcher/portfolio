@@ -39,7 +39,7 @@ const Intro = () => {
                     </span>
                     <span>Gourab Modak</span>
                     <span>
-                        Competitive Programmer | React and Django Developer |
+                        Competitive Programmer | Python Developer |
                     </span>
                 </div>
                 {/* <Link to="contact" smooth={true} spy={true}> */}
