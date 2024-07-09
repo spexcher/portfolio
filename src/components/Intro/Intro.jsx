@@ -43,7 +43,7 @@ const Intro = () => {
                     </span>
                 </div>
                 {/* <Link to="contact" smooth={true} spy={true}> */}
-                <a href={Resume} download="Gourab Modak's Resume.pdf">
+                <a href={Resume} download="Gourab_Modak_Resume.pdf">
                     <button className="button i-button">Download CV</button>
                 </a>
                 {/* </Link> */}
