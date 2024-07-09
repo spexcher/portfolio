@@ -28,7 +28,7 @@ const navbar = () => {
 {/*                             <Link to="services" spy={true} smooth={true}>
                                 Serivces
                             </Link> */}
-                            <a style="text-decoration:none" href="https://app.onlinedegree.iitm.ac.in/student/23F2001573">IIT Madras Profile</a>
+                            <Link style="text-decoration:none" to="https://app.onlinedegree.iitm.ac.in/student/23F2001573">IIT Madras Profile</a>
                         </li>
                         {/* <li>
               <Link to="works" spy={true} smooth={true}>
