@@ -24,11 +24,12 @@ const navbar = () => {
                                 Home
                             </Link>
                         </li>
-{/*                         <li>
-                            <Link to="services" spy={true} smooth={true}>
+                        <li>
+{/*                             <Link to="services" spy={true} smooth={true}>
                                 Serivces
-                            </Link>
-                        </li> */}
+                            </Link> */}
+                            <a href="https://app.onlinedegree.iitm.ac.in/student/23F2001573">IIT Madras Profile</a>
+                        </li>
                         {/* <li>
               <Link to="works" spy={true} smooth={true}>
                 Experience
