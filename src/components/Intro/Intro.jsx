@@ -39,7 +39,7 @@ const Intro = () => {
                     </span>
                     <span>Gourab Modak</span>
                     <span>
-                        Competitive Programmer | Python Developer |
+                        Competitive Programmer | Python and C++ Developer |
                     </span>
                 </div>
                 {/* <Link to="contact" smooth={true} spy={true}> */}
@@ -136,7 +136,7 @@ const Intro = () => {
                 >
                     <FloatinDiv
                         img={thumbup}
-                        text1="Python"
+                        text1="Python and C++"
                         text2="Developer"
                     />
                 </motion.div>
