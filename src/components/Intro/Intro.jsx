@@ -39,7 +39,7 @@ const Intro = () => {
                     </span>
                     <span>Gourab Modak</span>
                     <span>
-                        Competitive Programmer | Python and C++ Developer |
+                        Competitive Programmer | Python and C++ Developer | From IIT Madras
                     </span>
                 </div>
                 {/* <Link to="contact" smooth={true} spy={true}> */}
