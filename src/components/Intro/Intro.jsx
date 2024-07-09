@@ -136,7 +136,7 @@ const Intro = () => {
                 >
                     <FloatinDiv
                         img={thumbup}
-                        text1="React and Django"
+                        text1="Python"
                         text2="Developer"
                     />
                 </motion.div>
