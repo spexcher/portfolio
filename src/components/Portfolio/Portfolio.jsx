@@ -30,20 +30,22 @@ const Portfolio = () => {
                     <img src={Sidebar} alt="" />
                 </SwiperSlide> */}
         <SwiperSlide>
-          <a href="https://spexcher.github.io/eng">
-            <img src={Ecommerce} alt="" />
+          <a href="https://ceditor.vercel.app">x
+            <img src={Ceditor} alt="" />
           </a>
         </SwiperSlide>
+        
         <SwiperSlide>
           <a href="#">
             <img src={MusicApp} alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://ceditor.vercel.app">x
-            <img src={Ceditor} alt="" />
+          <a href="https://spexcher.github.io/eng">
+            <img src={Ecommerce} alt="" />
           </a>
         </SwiperSlide>
+        
       </Swiper>
     </div>
   );
