@@ -175,6 +175,7 @@ This repository can be extended further to showcase additional depth and context
 - **Recruiter-optimized version** — concise, impact-focused README tailored for hiring managers  
 
 These additions are intentionally optional to keep the core presentation clean, focused, and algorithm-centric.
+And there already exists better implementations on the real websites.
 
 
 ---
