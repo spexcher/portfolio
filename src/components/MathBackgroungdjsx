@@ -1,0 +1,21 @@
+const symbols = ["0", "1", "2", "+", "-", "*", "/", "%", "∑", "∏", "∂", "∞"];
+
+export const MathBackground = () => {
+  return (
+    <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+      {[...Array(40)].map((_, i) => (
+        <span
+          key={i}
+          className="absolute text-xs font-mono text-primary/20 animate-float"
+          style={{
+            left: Math.random() * 100 + "%",
+            top: Math.random() * 100 + "%",
+            animationDelay: Math.random() * 10 + "s",
+          }}
+        >
+          {symbols[Math.floor(Math.random() * symbols.length)]}
+        </span>
+      ))}
+    </div>
+  );
+};
