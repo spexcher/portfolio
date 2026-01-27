@@ -159,7 +159,23 @@ The goal is not to impress with effects, but to communicate:
 - **LinkedIn:** https://linkedin.com/in/gourabmodak  
 - **Codeforces:** https://codeforces.com/profile/spexcher  
 - **CLIST:** https://clist.by/coder/spexcher  
-- **Email:** gourabmodak28092003@gmail.com  
+- **Email:** gourabmodak28092003@gmail.com
+
+
+---
+
+### Optional Enhancements
+
+This repository can be extended further to showcase additional depth and context:
+
+- **Badges** — tech stack, deployment status, and activity indicators  
+- **Animated GIF preview** — short visual demo of graph traversal and scroll-driven phases  
+- **Architecture diagram** — high-level system view of graph generation, traversal, and rendering pipeline  
+- **Competitive Programming stats** — Codeforces / CodeChef / CLIST highlights  
+- **Recruiter-optimized version** — concise, impact-focused README tailored for hiring managers  
+
+These additions are intentionally optional to keep the core presentation clean, focused, and algorithm-centric.
+
 
 ---
 
