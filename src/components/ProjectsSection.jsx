@@ -28,8 +28,8 @@ const projects = [
       "Graph Algorithms, visualized. Built a React-based Graph Visualizer that animates BFS, DFS, Topological Sort, Hamiltonian Path, and Euler Cycle using real data structures and step-by-step explanations.",
     image: "/projects/gv.png",
     tags: ["ReactJS", "TailwindCSS", "Graph Algorithms", "Recursion", "Backtracking", "BFS", "DFS"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://graphvisualizer.vercel.app",
+    githubUrl: "https://github.com/spexcher/graph_visualizer",
   },
   {
     id: 4,
