@@ -6,8 +6,8 @@ const projects = [
     title: "Competitive Programming IDE",
     description:
       "A browser-based IDE built for competitive programmers featuring multi-language support (C++, Python, Java), Monaco Editor IntelliSense, custom snippets, and low-latency execution.",
-    image: "/projects/cp-ide.png",
-    tags: ["React", "Node.js", "Monaco Editor", "Vercel"],
+    image: "/projects/cp-ide.jpeg",
+    tags: ["ReactJS", "Node.js", "Monaco Editor", "Vercel"],
     demoUrl: "https://ceditor.vercel.app",
     githubUrl: "https://github.com/spexcher/ceditor",
   },
@@ -23,6 +23,16 @@ const projects = [
   },
   {
     id: 3,
+    title: "Graph Visualizer",
+    description:
+      "Graph Algorithms, visualized. Built a React-based Graph Visualizer that animates BFS, DFS, Topological Sort, Hamiltonian Path, and Euler Cycle using real data structures and step-by-step explanations.",
+    image: "/projects/gv.jpeg",
+    tags: ["ReactJS", "TailwindCSS", "Graph Algorithms", "Recursion", "Backtracking", "BFS", "DFS"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 4,
     title: "EEG Signal Processing Pipeline",
     description:
       "Automated EEG signal processing pipeline for 64-channel ANT Neuro devices, reducing manual noise-cleaning time by 40% across datasets of 150+ patients.",
