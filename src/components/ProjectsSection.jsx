@@ -6,7 +6,7 @@ const projects = [
     title: "Competitive Programming IDE",
     description:
       "A browser-based IDE built for competitive programmers featuring multi-language support (C++, Python, Java), Monaco Editor IntelliSense, custom snippets, and low-latency execution.",
-    image: "/projects/cp-ide.jpeg",
+    image: "/projects/cp-ide.png",
     tags: ["ReactJS", "Node.js", "Monaco Editor", "Vercel"],
     demoUrl: "https://ceditor.vercel.app",
     githubUrl: "https://github.com/spexcher/ceditor",
@@ -26,7 +26,7 @@ const projects = [
     title: "Graph Visualizer",
     description:
       "Graph Algorithms, visualized. Built a React-based Graph Visualizer that animates BFS, DFS, Topological Sort, Hamiltonian Path, and Euler Cycle using real data structures and step-by-step explanations.",
-    image: "/projects/gv.jpeg",
+    image: "/projects/gv.png",
     tags: ["ReactJS", "TailwindCSS", "Graph Algorithms", "Recursion", "Backtracking", "BFS", "DFS"],
     demoUrl: "#",
     githubUrl: "#",
