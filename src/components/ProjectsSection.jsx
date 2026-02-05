@@ -13,13 +13,20 @@ const projects = [
   },
   {
     id: 2,
-    title: "DiabOptiSVM",
+    title: "AegisQueue",
     description:
-      "An optimized clinical prediction system using Support Vector Machines. Achieved strong validation accuracy through Bayesian Optimization, Grid Search, and feature engineering.",
-    image: "/projects/diaboptisvm.png",
-    tags: ["Python", "Scikit-Learn", "ML", "Bayesian Optimization"],
+      "A distributed background job queue and scheduler with multiple workers, atomic MongoDB locking, priority-based scheduling, retries, and fault recovery via heartbeats and liveness checks.",
+    image: "/projects/aegisqueue.png",
+    tags: [
+      "FastAPI",
+      "Python",
+      "MongoDB",
+      "Distributed Systems",
+      "Concurrency",
+      "Job Queues",
+    ],
     demoUrl: "#",
-    githubUrl: "https://github.com/spexcher/DiabOptiSVM",
+    githubUrl: "https://github.com/spexcher/distributed-job-queue",
   },
   {
     id: 3,
@@ -33,15 +40,16 @@ const projects = [
   },
   {
     id: 4,
-    title: "EEG Signal Processing Pipeline",
+    title: "DiabOptiSVM",
     description:
-      "Automated EEG signal processing pipeline for 64-channel ANT Neuro devices, reducing manual noise-cleaning time by 40% across datasets of 150+ patients.",
-    image: "/projects/eeg-pipeline.png",
-    tags: ["Python", "Signal Processing", "Healthcare", "ML"],
+      "An optimized clinical prediction system using Support Vector Machines. Achieved strong validation accuracy through Bayesian Optimization, Grid Search, and feature engineering.",
+    image: "/projects/diaboptisvm.png",
+    tags: ["Python", "Scikit-Learn", "ML", "Bayesian Optimization"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/spexcher/DiabOptiSVM",
   },
 ];
+
 export const ProjectsSection = () => {
   return (
     <section id="projects" className="py-24 px-4 relative">
