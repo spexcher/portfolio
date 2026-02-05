@@ -8,11 +8,13 @@ const skillGroups = [
       "Linked Lists",
       "Stacks & Queues",
       "Trees & BST",
-      "Graphs (BFS / DFS)",
+      "Graphs (BFS / DFS, Topological Sort)",
       "Dynamic Programming",
       "Greedy Algorithms",
       "Binary Search",
       "Recursion & Backtracking",
+      "Sliding Window",
+      "Two Pointers",
     ],
     meta: "1500+ problems solved · CodeChef 3★ · Codeforces · LeetCode",
   },
@@ -20,6 +22,33 @@ const skillGroups = [
     title: "Programming Languages",
     highlight: true,
     skills: ["C++", "Python", "Java", "JavaScript", "SQL"],
+  },
+  {
+    title: "Backend & Distributed Systems",
+    highlight: true,
+    skills: [
+      "FastAPI",
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "Distributed Workers",
+      "Job Queues & Scheduling",
+      "Concurrency & Locking",
+      "Fault Tolerance",
+      "Retries & Idempotency",
+    ],
+  },
+  {
+    title: "Databases & Storage",
+    highlight: true,
+    skills: [
+      "MongoDB",
+      "PyMongo",
+      "MySQL",
+      "Database Indexing",
+      "Transactions",
+      "Atomic Operations",
+    ],
   },
   {
     title: "Machine Learning & Data Science",
@@ -37,16 +66,31 @@ const skillGroups = [
     ],
   },
   {
-    title: "Web & Backend Development",
+    title: "Web & Frontend Development",
     highlight: true,
-    skills: ["React.js", "Node.js", "Express.js", "HTML5", "CSS3", "REST APIs"],
+    skills: [
+      "React.js",
+      "HTML5",
+      "CSS3",
+      "Monaco Editor API",
+      "Chakra UI",
+      "Tailwind CSS",
+    ],
   },
   {
     title: "Developer Tools & Platforms",
     highlight: true,
-    skills: ["Git", "GitHub", "VS Code", "Vercel", "Postman"],
+    skills: [
+      "Git",
+      "GitHub",
+      "VS Code",
+      "Postman",
+      "Vercel",
+      "Linux",
+    ],
   },
 ];
+
 
 export const SkillsSection = () => {
   return (
