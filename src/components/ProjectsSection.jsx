@@ -16,7 +16,7 @@ const projects = [
     title: "AegisQueue",
     description:
       "A distributed background job queue and scheduler with multiple workers, atomic MongoDB locking, priority-based scheduling, retries, and fault recovery via heartbeats and liveness checks.",
-    image: "/projects/aegisqueue.png",
+    image: "projects/aegis_queue_architecture.png",
     tags: [
       "FastAPI",
       "Python",
