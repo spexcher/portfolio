@@ -64,6 +64,7 @@ const projects = [
     "UI/UX",
   ],
   demoUrl: "https://parallaxts.vercel.app/",
+  githubUrl: "#",
 }
 
 ];
