@@ -48,6 +48,24 @@ const projects = [
     demoUrl: "#",
     githubUrl: "https://github.com/spexcher/DiabOptiSVM",
   },
+  {
+  id: 5,
+  title: "PARALLAX — The System",
+  description:
+    "A Solo Leveling–inspired life synchronization interface that gamifies discipline into measurable progression. Tasks are modeled as quests, consistency earns XP, ranks evolve from E to S, and inactivity triggers decay. Built with a no-motivation philosophy—only progression, penalties, and unlocks—backed by real-time analytics and immersive UI.",
+  image: "/projects/parallax.png",
+  tags: [
+    "React",
+    "TypeScript",
+    "Vite",
+    "TailwindCSS",
+    "Gamification",
+    "System Design",
+    "UI/UX",
+  ],
+  demoUrl: "https://parallaxts.vercel.app/",
+}
+
 ];
 
 export const ProjectsSection = () => {
