@@ -1,16 +1,26 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
-  {
-    id: 1,
-    title: "Competitive Programming IDE",
-    description:
-      "A browser-based IDE built for competitive programmers featuring multi-language support (C++, Python, Java), Monaco Editor IntelliSense, custom snippets, and low-latency execution.",
-    image: "/projects/cp-ide.png",
-    tags: ["ReactJS", "Node.js", "Monaco Editor", "Vercel"],
-    demoUrl: "https://ceditor.vercel.app",
-    githubUrl: "https://github.com/spexcher/ceditor",
-  },
+ {
+  id: 1,
+  title: "Pictionary — Real-Time Multiplayer Drawing Game",
+  description:
+    "A production-grade real-time multiplayer drawing and guessing game built with WebSockets. Features private rooms with password protection, live canvas synchronization with stroke streaming + snapshot fallback, Redis-backed state management, PostgreSQL persistence, reconnect/session-token flow, live chat, leaderboard scoring, and full game lifecycle handling.",
+  image: "/projects/pictionary.png",
+  tags: [
+    "Node.js",
+    "TypeScript",
+    "Express",
+    "Socket.IO",
+    "Redis",
+    "PostgreSQL",
+    "WebSockets",
+    "Real-Time Systems",
+    "System Design",
+  ],
+  demoUrl: "https://www.youtube.com/watch?v=y3vPS7wFcyU",
+  githubUrl: "https://github.com/spexcher/Pictionary",
+},
   {
     id: 2,
     title: "AegisQueue",
@@ -29,27 +39,7 @@ const projects = [
     githubUrl: "https://github.com/spexcher/distributed-job-queue",
   },
   {
-    id: 3,
-    title: "Graph Visualizer",
-    description:
-      "Graph Algorithms, visualized. Built a React-based Graph Visualizer that animates BFS, DFS, Topological Sort, Hamiltonian Path, and Euler Cycle using real data structures and step-by-step explanations.",
-    image: "/projects/gv.png",
-    tags: ["ReactJS", "TailwindCSS", "Graph Algorithms", "Recursion", "Backtracking", "BFS", "DFS"],
-    demoUrl: "https://graphvisualizer.vercel.app",
-    githubUrl: "https://github.com/spexcher/graph_visualizer",
-  },
-  {
-    id: 4,
-    title: "DiabOptiSVM",
-    description:
-      "An optimized clinical prediction system using Support Vector Machines. Achieved strong validation accuracy through Bayesian Optimization, Grid Search, and feature engineering.",
-    image: "/projects/diaboptisvm.png",
-    tags: ["Python", "Scikit-Learn", "ML", "Bayesian Optimization"],
-    demoUrl: "#",
-    githubUrl: "https://github.com/spexcher/DiabOptiSVM",
-  },
-  {
-  id: 5,
+  id: 3,
   title: "PARALLAX — The System",
   description:
     "A Solo Leveling–inspired life synchronization interface that gamifies discipline into measurable progression. Tasks are modeled as quests, consistency earns XP, ranks evolve from E to S, and inactivity triggers decay. Built with a no-motivation philosophy—only progression, penalties, and unlocks—backed by real-time analytics and immersive UI.",
@@ -65,7 +55,39 @@ const projects = [
   ],
   demoUrl: "https://parallaxts.vercel.app/",
   githubUrl: "#",
-}
+},
+  
+   {
+    id: 3,
+    title: "Competitive Programming IDE",
+    description:
+      "A browser-based IDE built for competitive programmers featuring multi-language support (C++, Python, Java), Monaco Editor IntelliSense, custom snippets, and low-latency execution.",
+    image: "/projects/cp-ide.png",
+    tags: ["ReactJS", "Node.js", "Monaco Editor", "Vercel"],
+    demoUrl: "https://ceditor.vercel.app",
+    githubUrl: "https://github.com/spexcher/ceditor",
+  },
+  {
+    id: 4,
+    title: "Graph Visualizer",
+    description:
+      "Graph Algorithms, visualized. Built a React-based Graph Visualizer that animates BFS, DFS, Topological Sort, Hamiltonian Path, and Euler Cycle using real data structures and step-by-step explanations.",
+    image: "/projects/gv.png",
+    tags: ["ReactJS", "TailwindCSS", "Graph Algorithms", "Recursion", "Backtracking", "BFS", "DFS"],
+    demoUrl: "https://graphvisualizer.vercel.app",
+    githubUrl: "https://github.com/spexcher/graph_visualizer",
+  },
+  {
+    id: 5,
+    title: "DiabOptiSVM",
+    description:
+      "An optimized clinical prediction system using Support Vector Machines. Achieved strong validation accuracy through Bayesian Optimization, Grid Search, and feature engineering.",
+    image: "/projects/diaboptisvm.png",
+    tags: ["Python", "Scikit-Learn", "ML", "Bayesian Optimization"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/spexcher/DiabOptiSVM",
+  }
+  
 
 ];
 
