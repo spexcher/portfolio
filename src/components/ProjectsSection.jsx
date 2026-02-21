@@ -58,7 +58,7 @@ const projects = [
 },
   
    {
-    id: 3,
+    id: 4,
     title: "Competitive Programming IDE",
     description:
       "A browser-based IDE built for competitive programmers featuring multi-language support (C++, Python, Java), Monaco Editor IntelliSense, custom snippets, and low-latency execution.",
@@ -68,7 +68,7 @@ const projects = [
     githubUrl: "https://github.com/spexcher/ceditor",
   },
   {
-    id: 4,
+    id: 5,
     title: "Graph Visualizer",
     description:
       "Graph Algorithms, visualized. Built a React-based Graph Visualizer that animates BFS, DFS, Topological Sort, Hamiltonian Path, and Euler Cycle using real data structures and step-by-step explanations.",
@@ -78,7 +78,7 @@ const projects = [
     githubUrl: "https://github.com/spexcher/graph_visualizer",
   },
   {
-    id: 5,
+    id: 6,
     title: "DiabOptiSVM",
     description:
       "An optimized clinical prediction system using Support Vector Machines. Achieved strong validation accuracy through Bayesian Optimization, Grid Search, and feature engineering.",
