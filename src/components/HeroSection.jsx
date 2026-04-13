@@ -23,14 +23,14 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-xl opacity-0 animate-fade-in-delay-3">
-            Computer Science undergraduate with strong expertise in
-            <span className="text-foreground font-medium">
-              {" "}Data Structures & Algorithms
-            </span>
-            , applied Machine Learning, and scalable software systems.
-            Experienced in building ML pipelines on real-world biomedical data
-            and developer tools used by competitive programmers.
-          </p>
+  Dual-degree Computer Science undergraduate with strong expertise in
+  <span className="text-foreground font-medium">
+    {" "}Data Structures & Algorithms
+  </span>
+  , scalable backend systems, and Machine Learning.
+  Experienced in engineering distributed real-time applications, biomedical ML pipelines,
+    and browser-based developer tools.
+  </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
             <a href="#projects" className="cosmic-button">
