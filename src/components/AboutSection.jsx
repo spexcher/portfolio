@@ -19,8 +19,8 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground leading-relaxed">
-              I am a Computer Science undergraduate at Jalpaiguri Government
-              Engineering College and a Data Science student at IIT Madras. My
+              I am a Computer Science graduate at Jalpaiguri Government
+              Engineering College and a Data Science student at IIT Madras(Foundational level). My
               primary interests lie in solving complex algorithmic problems,
               building efficient systems, and applying machine learning to
               real-world data.
