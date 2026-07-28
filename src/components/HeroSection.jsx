@@ -23,7 +23,7 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-xl opacity-0 animate-fade-in-delay-3">
-  Dual-degree Computer Science undergraduate with strong expertise in
+  Computer Science graduate with strong expertise in
   <span className="text-foreground font-medium">
     {" "}Data Structures & Algorithms
   </span>
@@ -36,6 +36,15 @@ export const HeroSection = () => {
             <a href="#projects" className="cosmic-button">
               View My Work
             </a>
+            <a
+                href="/Gourab_Modak_Resume.pdf"
+                target="_blank"
+                className="px-6 py-2 rounded-full border border-primary
+                           text-primary hover:bg-primary/10
+                           transition-colors duration-300"
+              >
+                Download Resume
+              </a>
           </div>
         </div>
 
